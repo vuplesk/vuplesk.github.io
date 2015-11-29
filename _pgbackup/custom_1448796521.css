@@ -2,7 +2,7 @@
 
 body
 {
-    font-family: 'bgl', 'helvetica neue', helvetica, arial, sans-serif;
+    font-family: "BrandonGrotesqueRegularRg", "helvetica neue", helvetica, arial, sans-serif;
     background-color: #111;
     color: #fff;
 }
@@ -32,9 +32,9 @@ p a:hover
 .h1
 {
     font-size: 32px;
+    font-weight: 700;
     line-height: 48px;
     margin-bottom: 48px;
-    font-family: 'bgb';
 }
 
 .p
@@ -53,9 +53,7 @@ p a:hover
     font-weight: 700;
     color: #f3c158;
     text-decoration: none;
-    font-family: 'bgb';
 }
-
 
 .brand:hover
 {

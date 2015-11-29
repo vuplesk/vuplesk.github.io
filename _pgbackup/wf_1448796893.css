@@ -1,0 +1,27 @@
+
+
+@font-face{
+    font-family: 'bgl';
+    src: url('/fonts/Brandon_light-webfont.eot');
+    src: url('/fonts/Brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Brandon_light-webfont.woff') format('woff'),
+         url('/fonts/Brandon_light-webfont.ttf') format('truetype'),
+         url('/fonts/Brandon_light-webfont.svg#BrandonGrotesqueRegularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'bgb';
+    src: url('/fonts/brandon_blk-webfont.eot');
+    src: url('/fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/brandon_blk-webfont.woff') format('woff'),
+         url('/fonts/brandon_blk-webfont.ttf') format('truetype'),
+         url('/fonts/brandon_blk-webfont.svg#BrandonGrotesqueBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

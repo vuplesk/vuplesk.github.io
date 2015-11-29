@@ -32,10 +32,12 @@ p a:hover
 .h1
 {
     font-size: 32px;
+    0;
     line-height: 48px;
     margin-bottom: 48px;
     font-family: 'bgb';
 }
+
 
 .p
 {
@@ -53,9 +55,7 @@ p a:hover
     font-weight: 700;
     color: #f3c158;
     text-decoration: none;
-    font-family: 'bgb';
 }
-
 
 .brand:hover
 {
