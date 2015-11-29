@@ -7,11 +7,7 @@ body
     color: #fff;
 }
 
-a
-{
-    color: #ccc;
-    text-decoration: none;
-}
+a,
 a:hover,
 a:active,
 a:focus,
@@ -221,3 +217,4 @@ p a:hover
 {
     text-align: left;
 }
+
