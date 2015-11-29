@@ -1,0 +1,217 @@
+
+
+body
+{
+    font-family: "Brandon Grotesque";
+    background-color: #111;
+    color: #fff;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited
+{
+    text-decoration: none;
+}
+
+p a
+{
+    text-decoration: none;
+    color: #ccc;
+}
+
+p a:hover
+{
+    text-decoration: none;
+    color: #f3c158;
+}
+
+.h1
+{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+
+.p
+{
+    font-size: 18px;
+    font-weight: 200;
+    color: #ccc;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.brand
+{
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f3c158;
+    text-decoration: none;
+}
+
+.brand:hover
+{
+    color: #0fd5c9;
+    text-decoration: none;
+}
+
+.brand:hover,
+.brand:focus,
+.brand:visited
+{
+    color: #0fd5c9;
+    text-decoration: none;
+}
+
+.link
+{
+    display: block;
+    padding: 5px;
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:visited
+{
+    color: #f3c158;
+    text-decoration: none;
+}
+
+.dribbble-link
+{
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.dribbble-link:hover
+{
+    color: #C73B6F;
+    text-decoration: none;
+}
+
+.behance-link
+{
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.behance-link:hover
+{
+    color: #1769FF;
+    text-decoration: none;
+}
+
+.twitter-link
+{
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.twitter-link:hover
+{
+    color: #4099FF;
+    text-decoration: none;
+}
+
+.linkedin-link
+{
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.linkedin-link:hover
+{
+    color: #0077b5;
+    text-decoration: none;
+}
+
+.email-link
+{
+    color: #f3c158;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.email-link:hover
+{
+    color: #0fd5c9;
+    text-decoration: none;
+}
+
+.and
+{
+    font-family: 'Playfair Display';
+    color: #f3c158;
+}
+
+.bold
+{
+}
+
+.mt
+{
+    margin-top: 92px;
+}
+
+.mtbrand
+{
+    margin-top: 36px;
+}
+
+@media (max-width:479px)
+{
+    .p
+    {
+        line-height: 32px;
+        font-size: 18px;
+    }
+}
+
+.linksbar
+{
+    margin-bottom: 48px;
+}
+
+@media (max-width:767px)
+{
+    .mt
+    {
+        margin-top: 10px;
+    }
+    .h1
+    {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .link
+    {
+        line-height: 48px;
+    }
+    .mtbrand
+    {
+        margin-top: 16px;
+    }
+}
+
+.lleft
+{
+    text-align: left;
+}
+
