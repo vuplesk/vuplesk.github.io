@@ -41,7 +41,7 @@ p a:hover
     font-size: 18px;
     font-weight: 200;
     color: #ccc;
-    line-height: 32px;
+    line-height: 24px;
     margin-bottom: 24px;
 }
 
@@ -214,4 +214,3 @@ p a:hover
 {
     text-align: left;
 }
-
