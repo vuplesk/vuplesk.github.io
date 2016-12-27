@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700);
+
+html {
+  font-size: 1em;
+  font-family: "Roboto Mono", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  font-smooth: always;
+  background-color: #111;
+}
+
+.header {
+  padding: 3rem 4rem;
+  background-color: #fff;
+  color: #111;
+  
+}
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  line-height: 2.4rem;
+}
+
+.role {
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.content {
+  padding: 0rem 4rem 6rem 4rem;
+
+}
+.subtitle {
+  padding-bottom: 1rem;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+li {
+  padding: 1rem 0;
+  color: #fff;
+}
+
+
+.work, .contacts {
+  padding: 3rem 4rem 0rem 0rem;
+  color: #fff;
+  float: left;
+  width: 11rem;
+}
+
+.contacts {
+  padding: 3rem 4rem 6rem 0rem;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link
+{
+    color: #fff;
+    text-decoration: none;
+}
+.link:focus,
+.link:hover,
+{
+    color: #01FF70;
+    text-decoration: none;
+    padding-bottom: .5rem;
+    border-bottom: .5rem solid #01FF70;
+}
+
+.dribbble-link:hover
+{
+    color: #C73B6F;
+    text-decoration: none;
+    border-bottom: .5rem solid #C73B6F;
+}
+
+.twitter-link:hover
+{
+    color: #4099FF;
+    text-decoration: none;
+    border-bottom: .5rem solid #4099FF;
+}
+
+.linkedin-link:hover
+{
+    color: #0077b5;
+    text-decoration: none;
+    border-bottom: .5rem solid #0077b5;
+}
+
+.email-link:hover
+{
+    color: #01FF70;
+    text-decoration: none;
+    border-bottom: .5rem solid #01FF70;
+}
+
+
+::selection {
+  background: #01FF70; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #01FF70; /* Gecko Browsers */
+}
+
+@media (min-width: 26rem) and (max-width: 48rem) {
+  html {
+    font-size: 1.2rem;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  html {
+ font-size: 1.4rem;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+}
